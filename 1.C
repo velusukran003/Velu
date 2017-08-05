@@ -8,8 +8,8 @@ int main()
 
     if (no <= 0.0)
     {
-        if (no == 0.0)
-            printf("You entered 0.");
+        if (no == 0.00)
+            printf("You entered 0.00");
         else
             printf("You entered a negative no.");
     }
