@@ -2,15 +2,15 @@
  
 int main()
 {
-  char ch;
+  char bh;
  
   printf("Enter a character\n");
-  scanf("%c", &ch);
+  scanf("%b", &bh);
  
-  if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch =='o' || ch=='O' || ch == 'u' || ch == 'U')
-    printf("%c is a vowel.\n", ch);
+  if (bh == 'a' || bh == 'A' || bh == 'e' || bh == 'E' || bh == 'i' || bh == 'I' || bh =='o' || bh=='O' || bh == 'u' || bh == 'U')
+    printf("%c is a vowel.\n", bh);
   else
-    printf("%c is not a vowel.\n", ch);
+    printf("%c is not a vowel.\n", bh);
  
   return 0;
 }
