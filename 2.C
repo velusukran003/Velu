@@ -6,7 +6,8 @@ int main()
     scanf("%d", &e);
     /* logic */
     
-    if (e% 2 == 0) {
+    if (e% 2 == 0)
+    {
     	printf("The given number is EVEN");
     }
     else {
