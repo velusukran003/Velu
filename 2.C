@@ -2,11 +2,11 @@
 int main()
 {
     int c;
-    printf("Enter c: ");
-    scanf("%d", &c);
+    printf("Enter e: ");
+    scanf("%d", &e);
     /* logic */
     
-    if (c% 2 == 0) {
+    if (e% 2 == 0) {
     	printf("The given number is EVEN");
     }
     else {
